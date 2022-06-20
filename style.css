@@ -1,0 +1,34 @@
+a {
+    margin-left: 70px;
+}
+
+.company-name {
+    font-size: 1em;
+    font-weight: bold;
+    color: #0093dd;
+    text-align: center;
+}
+ul {
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0093dd;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+}
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+
+  
