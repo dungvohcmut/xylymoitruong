@@ -11,24 +11,39 @@ a {
     text-align: left;
 }
 
-.phone-number {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-    text-shadow: 1px 1px #000;
-    display: inline-block;
-    border-radius: 30px;
-    background-color: #0093dd;
-    color: #fff000;
-    padding-top: 1px;
-    padding-right: 10px;
-    padding-bottom: 1px;
-    padding-left: 10px;
+.box_hotline {
+    background: url(https://xulymoitruongsg.vn/images/icon_hotline.png) no-repeat left 15px center;
+	padding-left: 50px;
+	background-color: #0093dd;
+	display: inline-block;
+	padding: 5px 20px 5px 60px;
+	border-radius: 30px;
+	color: #fff000;
+	font-size: 18px;
+	line-height: 20px;
+	text-shadow: 1px 1px #000;
 }
 
 .company-overview {
     margin-left: 70px;
     margin-right: 10px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.col-inner {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 
 ul {
@@ -53,6 +68,38 @@ li a {
     text-decoration: none;
 }
 
+#information-header {
+    background-color: #f2f2f2; 
+    margin-left: 70px;
+}
+
+.box_dv_title {
+    background: url(https://xulymoitruongsg.vn/images/bgnen_dv.png) repeat-x;
+	text-transform: uppercase;
+	font-size: 16px; 
+    line-height: 43px;
+	padding: 0 50px 0 20px;
+	position: relative;
+	width:fit-content;
+	border-bottom: 0px solid #1a61a9;
+    margin-bottom: 20px !important;
+    font-family:'Roboto', sans-serif;
+}
+.box_dv_title span:after {
+    content: '';
+    position: absolute;
+    background: url(https://xulymoitruongsg.vn/images/after_dv.png) no-repeat;
+    width: 49px; height: 43px;
+    top: 0; right: -49px;
+}
+
+#information-content {
+    margin-left: 70px;
+    width: 100%;
+    font-size: 60%; 
+    color: #0093dd; 
+    text-align: left;
+}
 
 
   
