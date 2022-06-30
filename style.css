@@ -68,7 +68,7 @@ li a {
     text-decoration: none;
 }
 
-#information-header {
+.information-header {
     background-color: #f2f2f2; 
     margin-left: 70px;
 }
@@ -93,13 +93,31 @@ li a {
     top: 0; right: -49px;
 }
 
-#information-content {
-    margin-left: 70px;
+.information-content {
     width: 100%;
     font-size: 60%; 
     color: #0093dd; 
     text-align: left;
+    float:left;
+    width: 24%;
 }
 
 
-  
+.dichvu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.dichvu {
+    margin-left: 70px;
+}
+
+@media (max-width:600px){
+    .information-content {
+        width: 100%;
+        height: auto;
+    }
+}
+
+    
