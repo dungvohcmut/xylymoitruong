@@ -32,14 +32,18 @@ a {
 
 .company-overview {
     margin-left: 70px;
-    margin-right: 30px;
 }
 
 
 .CO-content {
     text-align: left;
     float: left;
-    width: 60%;
+    width: 55%;
+}
+
+.Co-video {
+    float: left;
+    width: 40%;
 }
 
 .company-overview::after {
@@ -51,6 +55,9 @@ a {
 @media (max-width: 600px) {
     .CO-content {
         width: 100%;
+    }
+    .CO-video {
+        width: 150%;
     }
 }
 
@@ -126,6 +133,15 @@ li a {
         width: 100%;
         height: auto;
     }
+}
+
+.footer {
+    background-color: rgb(0, 147, 221);
+}
+
+.footerContent {
+    float: left;
+    width: 30%;
 }
 
     
