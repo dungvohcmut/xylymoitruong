@@ -1,15 +1,11 @@
-a {
-    margin-left: 70px;
-    margin-right: 10px;
-}
-
-@media (max-width: 600px) {
-    .navigation {
-        display: none;
-    }
+.logo {
+    float: left;
+    width: 20%;
 }
 
 .company-name {
+    float: left;
+    width: 50%;
     font-family: Helvetica;
     font-size: 15px;
     font-weight: bold;
@@ -30,35 +26,24 @@ a {
 	text-shadow: 1px 1px #000;
 }
 
-.company-overview {
-    margin-left: 70px;
-}
-
-
-.CO-content {
-    text-align: left;
-    float: left;
-    width: 55%;
-}
-
-.Co-video {
-    float: left;
-    width: 40%;
-}
-
-.company-overview::after {
+.header::after {
     content: "";
     clear: both;
     display: table;
 }
 
 @media (max-width: 600px) {
-    .CO-content {
-        width: 100%;
+    .company-name {
+        display: none;
     }
-    .CO-video {
-        width: 150%;
+    .box_hotline {
+        display: none;
     }
+}
+
+a {
+    margin-left: 70px;
+    margin-right: 10px;
 }
 
 ul {
@@ -81,6 +66,43 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .navigation {
+        display: none;
+    }
+}
+
+.company-overview {
+    margin-left: 70px;
+}
+
+
+.CO-content {
+    text-align: left;
+    float: left;
+    width: 55%;
+}
+
+.Co-video {
+    float: center;
+    width: 40%;
+}
+
+.company-overview::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media (max-width: 600px) {
+    .CO-content {
+        width: 100%;
+    }
+    .CO-video {
+        width: 150%;
+    }
 }
 
 .information-header {
