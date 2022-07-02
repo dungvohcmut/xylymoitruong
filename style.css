@@ -74,20 +74,18 @@ li a {
     }
 }
 
-.company-overview {
-    margin-left: 70px;
-}
-
 
 .CO-content {
     text-align: left;
     float: left;
-    width: 55%;
+    width: 50%;
+    margin-left: 70px;
 }
 
 .Co-video {
     float: center;
     width: 40%;
+    margin-left: 70px;
 }
 
 .company-overview::after {
@@ -99,9 +97,11 @@ li a {
 @media (max-width: 600px) {
     .CO-content {
         width: 100%;
+        margin-left: 5px;
     }
     .CO-video {
         width: 150%;
+        margin-left: 5px;
     }
 }
 
@@ -151,9 +151,14 @@ li a {
 }
 
 @media (max-width:600px){
+    .information-header {
+        margin-left: 5px;
+    }
+
     .information-content {
         width: 100%;
         height: auto;
+        margin-left: -35px;
     }
 }
 
@@ -177,10 +182,11 @@ li a {
 @media (max-width: 600px) {
     .f-information {
         width: 90%;
+        margin-left: 5px;
     }
     .f-policy {
         width: 50%;
-        margin-left: 70px;
+        margin-left: 5px;
     }
 }
 
