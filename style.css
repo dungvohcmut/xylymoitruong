@@ -174,4 +174,14 @@ li a {
     margin-top: 0.5cm;
 }
 
+@media (max-width: 600px) {
+    .f-information {
+        width: 90%;
+    }
+    .f-policy {
+        width: 50%;
+        margin-left: 70px;
+    }
+}
+
     
