@@ -165,6 +165,67 @@ li a {
     }
 }
 
+.request {
+    float: left;
+    width: 30%;
+}
+
+.request-contain {
+    margin-left: 70px;
+}
+
+.news {
+    float: left;
+    width: 60%;
+}
+
+.request-news::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form {
+    margin-top: 0.5cm;
+}
+
+.submit {
+    height:30px; 
+    width: 200px; 
+    margin-bottom: 0.3cm; 
+    color: #ffffff;
+    background-color: #1b6db5;
+    position: relative;
+    text-transform: uppercase;
+    font-size: .97em;
+    letter-spacing: .03em;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-right: 1em;
+    text-shadow: none;
+    line-height: 2.4em;
+    min-height: 2.5em;
+    padding: 0 1.2em;
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    .request {
+        width: 100%;
+    }
+    .request-contain {
+        margin-left: 10px;
+    }
+    .news {
+        width: 100%;
+    }
+}
+
 .footer {
     background-color: rgb(0, 147, 221);
 }
